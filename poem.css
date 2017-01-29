@@ -1,0 +1,127 @@
+/* Styles for the Advanced Markup assignment. */
+ html { 
+      background-color: #222930;
+     
+}  
+
+header {
+      font-family: 'Georgia',sans-serif,serif;
+      color: #222930;
+      margin: 2rem 22rem 2rem 22rem;
+      padding: 1rem;
+      font-size: 85%;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      width: 40rem;
+      background-color: #DDDDDD;
+      text-align: center;
+      
+}  
+nav ul li {
+      display: inline;
+}
+
+a.active {
+      
+      font-weight: bold;
+      font-family: 'Georgia',sans-serif,serif;
+      color: #222930;
+}
+aside#sidebar{
+      
+      width: 30rem;
+      length: 40rem;
+      float: right;
+      font-family:'Georgia',sans-serif,serif;
+      line-height: 1.75;
+      color: #222930;
+      background-color: #DDDDDD;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      margin: 1.5rem;
+      padding: 1rem;
+  
+  
+ }
+#sidebar {
+      
+      width: 450px;
+      length: 1500px;
+      float: right;
+      font-family:'Georgia',sans-serif,serif;
+      line-height: 1.75;
+      color: #222930;
+      background-color: #DDDDDD;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      margin: 1.5rem;
+      padding: 1rem;
+}
+
+
+header.active {
+  
+      font-family:'Georgia',sans-serif,serif;
+      color: #222930;
+      padding: 1.5rem;
+
+} 
+  
+.poem {
+      
+      font-family:'Georgia',sans-serif,serif;
+      font-size: 120%;  
+      color: #DDDDDD;
+      margin: 0rem 5rem 30rem 5rem;
+      line-height:2.0;
+      width: 50rem;
+      
+      
+      
+     
+      
+}
+
+#content {
+      
+      font-family:'Georgia', sans-serif, serif;
+      font-size: 112%;
+      color: #DDDDDD;
+      text-align: justify;
+      width: 45rem;
+      margin: 2rem 20rem 30rem 20rem;
+      border-radius: 1rem;
+      padding: 1rem;
+
+}
+
+.bio-photo img{
+      
+      
+      float: left;
+      padding-right: 1rem;
+      border-radius: 1rem;
+}
+
+.bottom-nav  {
+    
+      
+      font-family:'Georgia',sans-serif,serif; 
+      color: #222930;
+      margin: 1.5rem;
+      padding: 1.5rem;
+      font-size: medium;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      width: 250px;
+      background-color: #DDDDDD;
+      text-align: center;
+}
+.smalltext {
+  
+      color: #DDDDDD;
+}
+h2 {
+      text-align: center;
+}
+
