@@ -1,0 +1,131 @@
+html { 
+      background-color: #222930;
+     
+}  
+
+header {
+      font-family: 'Georgia',sans-serif,serif;
+      color: #222930;
+      margin: 2rem 22rem 2rem 22rem;
+      padding: 1rem;
+      font-size: 85%;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      width: 40rem;
+      background-color: #DDDDDD;
+      text-align: center;
+      
+}  
+nav ul li {
+      display: inline;
+}
+
+h2 {
+      text-align: center;
+}
+
+a.active {
+      
+      font-weight: bold;
+      font-family: 'Georgia',sans-serif,serif;
+      color: #222930;
+}
+aside#sidebar{
+      
+      width: 20rem;
+      length: 40rem;
+      float: right;
+      font-family:'Georgia',sans-serif,serif;
+      line-height: 1.25;
+      color: #222930;
+      background-color: #DDDDDD;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      margin: 1.5rem;
+      padding: 1rem;
+  
+  
+ }
+#sidebar {
+      
+      width: 500px;
+      length: 1500px;
+      float: right;
+      font-family:'Georgia',sans-serif,serif;
+      line-height: 1.75;
+      color: #222930;
+      background-color: #DDDDDD;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      margin: 1.5rem;
+      padding: 1rem;
+}
+
+
+header.active {
+  
+      font-family:'Georgia',sans-serif,serif;
+      color: #222930;
+      padding: 1.5rem;
+
+} 
+  
+
+      
+      
+     
+      
+
+
+#content {
+      
+      font-family:'Georgia', sans-serif, serif;
+      font-size: 112%;
+      color: #DDDDDD;
+      text-align: justify;
+      width: 75rem;
+      margin: 2rem 20rem 30rem 20rem;
+      border-radius: 1rem;
+      padding: 1rem;
+
+}
+
+#selected_works {
+      
+      font-family:'Georgia', sans-serif, serif;
+      font-size: 112%;
+      color: #222930;
+      text-align: justify;
+      width: 55rem;
+      margin: 1rem;
+      border-radius: 1rem;
+      padding: 1rem;
+      background-color: #DDDDDD;
+}
+.bio-photo img{
+      
+      float: left;
+      margin: 1rem;
+      padding: .5rem;
+      border-radius: 1rem;
+}
+
+.bottom-nav  {
+    
+      
+      font-family:'Georgia',sans-serif,serif; 
+      color: #222930;
+      margin: 1rem; 
+      padding: 1.5rem;
+      font-size: medium;
+      border: 0.2rem solid rgb(128, 0, 0);
+      border-radius: 1rem;
+      width: 250px;
+      background-color: #DDDDDD;
+      text-align: center;
+}
+.smalltext {
+  
+      color: #DDDDDD;
+}
+
