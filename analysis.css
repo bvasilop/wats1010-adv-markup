@@ -1,6 +1,6 @@
 html { 
       background-color: #222930;
-     
+      
 }  
 
 header {
@@ -24,12 +24,17 @@ h2 {
       text-align: center;
 }
 
+p {
+  width: 50rem;
+}
+
 a.active {
       
       font-weight: bold;
       font-family: 'Georgia',sans-serif,serif;
       color: #222930;
 }
+
 aside#sidebar{
       
       width: 20rem;
@@ -43,9 +48,16 @@ aside#sidebar{
       border-radius: 1rem;
       margin: 1.5rem;
       padding: 1rem;
+}
+
+header.active {
   
-  
- }
+      font-family:'Georgia',sans-serif,serif;
+      color: #222930;
+      padding: 1.5rem;
+
+}
+
 #sidebar {
       
       width: 500px;
@@ -61,29 +73,13 @@ aside#sidebar{
       padding: 1rem;
 }
 
-
-header.active {
-  
-      font-family:'Georgia',sans-serif,serif;
-      color: #222930;
-      padding: 1.5rem;
-
-} 
-  
-
-      
-      
-     
-      
-
-
 #content {
       
       font-family:'Georgia', sans-serif, serif;
       font-size: 112%;
       color: #DDDDDD;
       text-align: justify;
-      width: 75rem;
+      width: 55rem;
       margin: 2rem 20rem 30rem 20rem;
       border-radius: 1rem;
       padding: 1rem;
@@ -102,6 +98,7 @@ header.active {
       padding: 1rem;
       background-color: #DDDDDD;
 }
+
 .bio-photo img{
       
       float: left;
@@ -129,3 +126,7 @@ header.active {
       color: #DDDDDD;
 }
 
+
+
+
+  
