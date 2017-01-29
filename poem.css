@@ -1,5 +1,5 @@
 /* Styles for the Advanced Markup assignment. */
- html { 
+html { 
       background-color: #222930;
      
 }  
@@ -17,8 +17,13 @@ header {
       text-align: center;
       
 }  
+
 nav ul li {
       display: inline;
+}
+
+h2 {
+      text-align: center;
 }
 
 a.active {
@@ -27,6 +32,7 @@ a.active {
       font-family: 'Georgia',sans-serif,serif;
       color: #222930;
 }
+
 aside#sidebar{
       
       width: 30rem;
@@ -40,9 +46,15 @@ aside#sidebar{
       border-radius: 1rem;
       margin: 1.5rem;
       padding: 1rem;
+}
   
+header.active {
   
- }
+      font-family:'Georgia',sans-serif,serif;
+      color: #222930;
+      padding: 1.5rem;
+} 
+  
 #sidebar {
       
       width: 450px;
@@ -58,15 +70,6 @@ aside#sidebar{
       padding: 1rem;
 }
 
-
-header.active {
-  
-      font-family:'Georgia',sans-serif,serif;
-      color: #222930;
-      padding: 1.5rem;
-
-} 
-  
 .poem {
       
       font-family:'Georgia',sans-serif,serif;
@@ -75,11 +78,6 @@ header.active {
       margin: 0rem 5rem 30rem 5rem;
       line-height:2.0;
       width: 50rem;
-      
-      
-      
-     
-      
 }
 
 #content {
@@ -92,7 +90,6 @@ header.active {
       margin: 2rem 20rem 30rem 20rem;
       border-radius: 1rem;
       padding: 1rem;
-
 }
 
 .bio-photo img{
@@ -105,7 +102,6 @@ header.active {
 
 .bottom-nav  {
     
-      
       font-family:'Georgia',sans-serif,serif; 
       color: #222930;
       margin: 1.5rem;
@@ -117,11 +113,10 @@ header.active {
       background-color: #DDDDDD;
       text-align: center;
 }
+
 .smalltext {
   
       color: #DDDDDD;
 }
-h2 {
-      text-align: center;
-}
+
 
