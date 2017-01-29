@@ -20,8 +20,13 @@ nav ul li {
       display: inline;
 }
 
-h2 {
-      text-align: center;
+h {
+      margin-left: 30rem;
+}
+
+p {
+  width: 50rem;
+  
 }
 
 a.active {
@@ -46,20 +51,7 @@ aside#sidebar{
   
   
  }
-#sidebar {
-      
-      width: 500px;
-      length: 1500px;
-      float: right;
-      font-family:'Georgia',sans-serif,serif;
-      line-height: 1.75;
-      color: #222930;
-      background-color: #DDDDDD;
-      border: 0.2rem solid rgb(128, 0, 0);
-      border-radius: 1rem;
-      margin: 1.5rem;
-      padding: 1rem;
-}
+
 
 
 header.active {
@@ -70,20 +62,12 @@ header.active {
 
 } 
   
-
-      
-      
-     
-      
-
-
 #content {
       
       font-family: 'Georgia',sans-serif, serif;
       font-size: 112%;
       color: #DDDDDD;
       text-align: justify;
-      width: 130rem;
       margin: 2rem 20rem 30rem 20rem;
       border-radius: 1rem;
       padding: 1rem;
@@ -102,17 +86,17 @@ header.active {
       padding: 1rem;
       background-color: #DDDDDD;
 }
+
 .bio-photo img{
       
       float: left;
-      margin: 1rem;
+      margin: auto;
       padding: .5rem;
       border-radius: 1rem;
 }
 
 .bottom-nav  {
     
-      
       font-family:'Georgia',sans-serif,serif; 
       color: #222930;
       margin: 1rem; 
@@ -127,8 +111,4 @@ header.active {
 .smalltext {
   
       color: #DDDDDD;
-}
-p {
-  width: 100rem;
-  
 }
