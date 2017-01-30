@@ -1,13 +1,13 @@
 /* Styles for the Advanced Markup assignment. */
 html { 
       background-color: #222930;
-     
-}  
+}     
+  
 
 header {
       font-family: 'Georgia',sans-serif,serif;
       color: #222930;
-      margin: 2rem 22rem 2rem 22rem;
+      margin: 2rem 22rem 2rem 23rem;
       padding: 1rem;
       font-size: 85%;
       border: 0.2rem solid rgb(128, 0, 0);
@@ -20,6 +20,11 @@ header {
 
 nav ul li {
       display: inline;
+}
+
+aside#sidebar ul li { 
+      display: inline;
+
 }
 
 h2 {
@@ -35,7 +40,7 @@ a.active {
 
 aside#sidebar{
       
-      width: 30rem;
+      width: 19rem;
       length: 40rem;
       float: right;
       font-family:'Georgia',sans-serif,serif;
@@ -44,8 +49,9 @@ aside#sidebar{
       background-color: #DDDDDD;
       border: 0.2rem solid rgb(128, 0, 0);
       border-radius: 1rem;
-      margin: 1.5rem;
+      margin: 3rem 3rem 5rem 5rem;
       padding: 1rem;
+      text-align: center;
 }
   
 header.active {
@@ -55,27 +61,15 @@ header.active {
       padding: 1.5rem;
 } 
   
-#sidebar {
-      
-      width: 450px;
-      length: 1500px;
-      float: right;
-      font-family:'Georgia',sans-serif,serif;
-      line-height: 1.75;
-      color: #222930;
-      background-color: #DDDDDD;
-      border: 0.2rem solid rgb(128, 0, 0);
-      border-radius: 1rem;
-      margin: 1.5rem;
-      padding: 1rem;
-}
+
+
 
 .poem {
       
       font-family:'Georgia',sans-serif,serif;
-      font-size: 120%;  
+      font-size: 125%;  
       color: #DDDDDD;
-      margin: 0rem 5rem 30rem 5rem;
+      margin: 1rem 5rem 5rem 8rem;
       line-height:2.0;
       width: 50rem;
 }
@@ -87,24 +81,19 @@ header.active {
       color: #DDDDDD;
       text-align: justify;
       width: 45rem;
-      margin: 2rem 20rem 30rem 20rem;
+      margin: 2rem 20rem 0rem 20rem;
       border-radius: 1rem;
       padding: 1rem;
 }
 
-.bio-photo img{
-      
-      
-      float: left;
-      padding-right: 1rem;
-      border-radius: 1rem;
-}
+
+
 
 .bottom-nav  {
     
       font-family:'Georgia',sans-serif,serif; 
       color: #222930;
-      margin: 1.5rem;
+      margin: 1rem; 
       padding: 1.5rem;
       font-size: medium;
       border: 0.2rem solid rgb(128, 0, 0);
@@ -119,4 +108,22 @@ header.active {
       color: #DDDDDD;
 }
 
+a:link {
+    color: #8FBC8F;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(128, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF7F50;
+}
+
+/* selected link */
+a:active {
+    color: #DDDDDD;
+}
 
