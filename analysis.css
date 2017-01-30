@@ -6,7 +6,7 @@ html {
 header {
       font-family: 'Georgia',sans-serif,serif;
       color: #222930;
-      margin: 2rem 22rem 2rem 22rem;
+      margin: 2rem 22rem 2rem 23rem;
       padding: 1rem;
       font-size: 85%;
       border: 0.2rem solid rgb(128, 0, 0);
@@ -20,12 +20,16 @@ nav ul li {
       display: inline;
 }
 
+aside#sidebar ul li { 
+      display: inline;
+}
+
 h2 {
       text-align: center;
 }
 
 p {
-  width: 50rem;
+  width: 65rem;
 }
 
 a.active {
@@ -37,8 +41,7 @@ a.active {
 
 aside#sidebar{
       
-      width: 20rem;
-      length: 40rem;
+      width: 16rem;
       float: right;
       font-family:'Georgia',sans-serif,serif;
       line-height: 1.25;
@@ -46,8 +49,9 @@ aside#sidebar{
       background-color: #DDDDDD;
       border: 0.2rem solid rgb(128, 0, 0);
       border-radius: 1rem;
-      margin: 1.5rem;
+      margin: 3rem 3rem 40rem 8rem;
       padding: 1rem;
+      
 }
 
 header.active {
@@ -58,29 +62,17 @@ header.active {
 
 }
 
-#sidebar {
-      
-      width: 500px;
-      length: 1500px;
-      float: right;
-      font-family:'Georgia',sans-serif,serif;
-      line-height: 1.75;
-      color: #222930;
-      background-color: #DDDDDD;
-      border: 0.2rem solid rgb(128, 0, 0);
-      border-radius: 1rem;
-      margin: 1.5rem;
-      padding: 1rem;
-}
+
+
 
 #content {
       
       font-family:'Georgia', sans-serif, serif;
-      font-size: 112%;
+      font-size: 120%;
       color: #DDDDDD;
       text-align: justify;
       width: 55rem;
-      margin: 2rem 20rem 30rem 20rem;
+      margin: 2rem 10rem 5rem 15rem;
       border-radius: 1rem;
       padding: 1rem;
 
@@ -93,7 +85,7 @@ header.active {
       color: #222930;
       text-align: justify;
       width: 55rem;
-      margin: 1rem;
+      margin: 2rem 15rem 5rem 10rem;
       border-radius: 1rem;
       padding: 1rem;
       background-color: #DDDDDD;
@@ -109,7 +101,6 @@ header.active {
 
 .bottom-nav  {
     
-      
       font-family:'Georgia',sans-serif,serif; 
       color: #222930;
       margin: 1rem; 
@@ -126,6 +117,24 @@ header.active {
       color: #DDDDDD;
 }
 
+a:link {
+    color: #8FBC8F;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(128, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF7F50;
+}
+
+/* selected link */
+a:active {
+    color: #DDDDDD;
+}
 
 
 
