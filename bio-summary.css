@@ -56,13 +56,10 @@ aside#sidebar{
       padding: 1rem;
       text-align: center;
 }
-  h2.aside#sidebar{
+h2.aside#sidebar{
       text-align:center;
   } 
  
-
-
-
 header.active {
   
       font-family:'Georgia',sans-serif,serif;
@@ -124,20 +121,20 @@ header.active {
 }
 
 a:link {
-    color: #8FBC8F;
+      color: #8FBC8F;
 }
 
 /* visited link */
 a:visited {
-    color: rgb(128, 0, 0) ;
+      color: rgb(128, 0, 0) ;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF7F50;
+      color: #FF7F50;
 }
 
 /* selected link */
 a:active {
-    color: #DDDDDD;
+      color: #DDDDDD;
 }
